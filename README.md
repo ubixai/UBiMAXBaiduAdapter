@@ -1,0 +1,2 @@
+# UBiMAXBaiduAdapter
+UBiMAXBaiduAdapter
