@@ -1,0 +1,6 @@
+framework module UBiMAXBaiduAdapter {
+  umbrella header "UBiMAXBaiduAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
