@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXBaiduAdapter'
-  s.version          = '5.371.2'
+  s.version          = '5.371.3'
   s.summary          = 'UBiX聚合Sass SDK Now Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
