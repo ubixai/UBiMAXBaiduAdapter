@@ -1,9 +1,9 @@
-
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXBaiduAdapter'
-  s.version          = '5.391.0'
+  s.version          = '5.394.0'
   s.summary          = 'UBiX聚合Sass SDK Now Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
+
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
   s.source           = { :git => 'https://github.com/ubixai/UBiMAXBaiduAdapter.git', :tag => s.version.to_s }
@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.vendored_frameworks = 'UBiMAXBaiduAdapter.framework'
-  
+
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
 
- s.dependency 'BaiduMobAdSDK', '5.391'
+ s.dependency 'BaiduMobAdSDK', '5.394'
  s.dependency 'UBiMAXAdSDK'
  s.dependency 'UBiMAXSplash'
 
